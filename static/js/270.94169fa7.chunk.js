@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcars_adverts=self.webpackChunkcars_adverts||[]).push([[270],{270:function(e,r,s){s.r(r);var a=s(184);r.default=function(){return(0,a.jsx)("div",{children:" CATALOG PAGE "})}}}]);
+//# sourceMappingURL=270.94169fa7.chunk.js.map
