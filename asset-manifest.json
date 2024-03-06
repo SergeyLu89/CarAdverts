@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/SergeyLu89/cars-adverts/static/css/main.7acaea2f.css",
+    "main.js": "/SergeyLu89/cars-adverts/static/js/main.07d3183d.js",
+    "index.html": "/SergeyLu89/cars-adverts/index.html",
+    "main.7acaea2f.css.map": "/SergeyLu89/cars-adverts/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/SergeyLu89/cars-adverts/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
