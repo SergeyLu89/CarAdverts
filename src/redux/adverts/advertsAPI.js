@@ -8,6 +8,7 @@ export const getAdverts = createAsyncThunk(
   async (_, thunkApi) => {
     try {
       const { data } = await axios.get(`${BASE_URL}/adverts`);
+
       return data;
     } catch (error) {
       return thunkApi.rejectWithValue(error.message);
