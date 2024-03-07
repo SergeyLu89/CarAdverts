@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/cars-adverts/static/css/main.7acaea2f.css",
-    "main.js": "/cars-adverts/static/js/main.e0f5fcdd.js",
+    "main.css": "/cars-adverts/static/css/main.e4c82ee1.css",
+    "main.js": "/cars-adverts/static/js/main.743adfb6.js",
     "static/js/680.a799a910.chunk.js": "/cars-adverts/static/js/680.a799a910.chunk.js",
-    "static/js/270.94169fa7.chunk.js": "/cars-adverts/static/js/270.94169fa7.chunk.js",
-    "static/js/413.f9693934.chunk.js": "/cars-adverts/static/js/413.f9693934.chunk.js",
+    "static/css/909.80d1bf86.chunk.css": "/cars-adverts/static/css/909.80d1bf86.chunk.css",
+    "static/js/909.4b51120f.chunk.js": "/cars-adverts/static/js/909.4b51120f.chunk.js",
+    "static/js/413.3340ee2b.chunk.js": "/cars-adverts/static/js/413.3340ee2b.chunk.js",
     "index.html": "/cars-adverts/index.html",
-    "main.7acaea2f.css.map": "/cars-adverts/static/css/main.7acaea2f.css.map",
-    "main.e0f5fcdd.js.map": "/cars-adverts/static/js/main.e0f5fcdd.js.map",
+    "static/media/favorite.svg": "/cars-adverts/static/media/favorite.83ae9576cb419db869688ad5a92854a4.svg",
+    "static/media/cross.svg": "/cars-adverts/static/media/cross.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
+    "main.e4c82ee1.css.map": "/cars-adverts/static/css/main.e4c82ee1.css.map",
+    "main.743adfb6.js.map": "/cars-adverts/static/js/main.743adfb6.js.map",
     "680.a799a910.chunk.js.map": "/cars-adverts/static/js/680.a799a910.chunk.js.map",
-    "270.94169fa7.chunk.js.map": "/cars-adverts/static/js/270.94169fa7.chunk.js.map",
-    "413.f9693934.chunk.js.map": "/cars-adverts/static/js/413.f9693934.chunk.js.map"
+    "909.80d1bf86.chunk.css.map": "/cars-adverts/static/css/909.80d1bf86.chunk.css.map",
+    "909.4b51120f.chunk.js.map": "/cars-adverts/static/js/909.4b51120f.chunk.js.map",
+    "413.3340ee2b.chunk.js.map": "/cars-adverts/static/js/413.3340ee2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.e0f5fcdd.js"
+    "static/css/main.e4c82ee1.css",
+    "static/js/main.743adfb6.js"
   ]
 }
