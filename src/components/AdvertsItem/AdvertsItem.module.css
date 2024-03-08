@@ -16,7 +16,6 @@
 }
 .listItemImg {
   width: 100%;
-  /* height: 268px; */
   height: -webkit-fill-available;
   background: #f3f3f2;
   border-radius: 14px;

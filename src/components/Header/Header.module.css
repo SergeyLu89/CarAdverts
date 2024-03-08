@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 24px;
+}
+.headerNavLink {
+  border-radius: 12px;
+  padding: 8px 50px;
+  background-color: #3470ff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fff;
+  transition: background-color var(--general-transition);
+}
+.headerNavLink:hover,
+.headerNavLink:focus {
+  background-color: #0b44cd;
+}
+.active {
+  border-radius: 12px;
+  padding: 8px 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fff;
+  background-color: #0b44cd;
+}
