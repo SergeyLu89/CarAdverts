@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcars_adverts=self.webpackChunkcars_adverts||[]).push([[680],{680:function(e,r,s){s.r(r);var a=s(184);r.default=function(){return(0,a.jsx)("div",{children:" HOME PAGE "})}}}]);
-//# sourceMappingURL=680.a799a910.chunk.js.map

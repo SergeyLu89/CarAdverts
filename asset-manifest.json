@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/cars-adverts/static/css/main.baa74aff.css",
-    "main.js": "/cars-adverts/static/js/main.ff8dbd05.js",
-    "static/js/680.a799a910.chunk.js": "/cars-adverts/static/js/680.a799a910.chunk.js",
-    "static/css/111.66155425.chunk.css": "/cars-adverts/static/css/111.66155425.chunk.css",
-    "static/js/111.32f6e81e.chunk.js": "/cars-adverts/static/js/111.32f6e81e.chunk.js",
-    "static/js/413.3340ee2b.chunk.js": "/cars-adverts/static/js/413.3340ee2b.chunk.js",
+    "main.js": "/cars-adverts/static/js/main.3204e5d8.js",
+    "static/css/674.1b5c5971.chunk.css": "/cars-adverts/static/css/674.1b5c5971.chunk.css",
+    "static/js/674.41e6f771.chunk.js": "/cars-adverts/static/js/674.41e6f771.chunk.js",
+    "static/css/951.14cf3d75.chunk.css": "/cars-adverts/static/css/951.14cf3d75.chunk.css",
+    "static/js/951.e7bd188a.chunk.js": "/cars-adverts/static/js/951.e7bd188a.chunk.js",
+    "static/css/480.9c88cc44.chunk.css": "/cars-adverts/static/css/480.9c88cc44.chunk.css",
+    "static/js/480.508bc78e.chunk.js": "/cars-adverts/static/js/480.508bc78e.chunk.js",
     "index.html": "/cars-adverts/index.html",
     "static/media/favorite.svg": "/cars-adverts/static/media/favorite.83ae9576cb419db869688ad5a92854a4.svg",
     "static/media/cross.svg": "/cars-adverts/static/media/cross.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
     "main.baa74aff.css.map": "/cars-adverts/static/css/main.baa74aff.css.map",
-    "main.ff8dbd05.js.map": "/cars-adverts/static/js/main.ff8dbd05.js.map",
-    "680.a799a910.chunk.js.map": "/cars-adverts/static/js/680.a799a910.chunk.js.map",
-    "111.66155425.chunk.css.map": "/cars-adverts/static/css/111.66155425.chunk.css.map",
-    "111.32f6e81e.chunk.js.map": "/cars-adverts/static/js/111.32f6e81e.chunk.js.map",
-    "413.3340ee2b.chunk.js.map": "/cars-adverts/static/js/413.3340ee2b.chunk.js.map"
+    "main.3204e5d8.js.map": "/cars-adverts/static/js/main.3204e5d8.js.map",
+    "674.1b5c5971.chunk.css.map": "/cars-adverts/static/css/674.1b5c5971.chunk.css.map",
+    "674.41e6f771.chunk.js.map": "/cars-adverts/static/js/674.41e6f771.chunk.js.map",
+    "951.14cf3d75.chunk.css.map": "/cars-adverts/static/css/951.14cf3d75.chunk.css.map",
+    "951.e7bd188a.chunk.js.map": "/cars-adverts/static/js/951.e7bd188a.chunk.js.map",
+    "480.9c88cc44.chunk.css.map": "/cars-adverts/static/css/480.9c88cc44.chunk.css.map",
+    "480.508bc78e.chunk.js.map": "/cars-adverts/static/js/480.508bc78e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa74aff.css",
-    "static/js/main.ff8dbd05.js"
+    "static/js/main.3204e5d8.js"
   ]
 }
