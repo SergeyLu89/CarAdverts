@@ -8,7 +8,7 @@ import {
   // selectAdvertsIsLoadMore,
   selectAdvertsIsLoading,
 } from '../../redux/adverts/advertsSelectors';
-// import Container from 'components/reuseComponents/Container';
+import Container from 'components/reuseComponents/Container';
 
 const CatalogPage = () => {
   const dispath = useDispatch();
@@ -21,13 +21,13 @@ const CatalogPage = () => {
   }, [dispath]);
 
   return (
-    // <Container>
-    <div>
-      {isLoading && <p>LOADING</p>}
-      {adverts && <AdvertsList adverts={adverts} />}
-      <button>Load more</button>
-    </div>
-    // </Container>
+    <Container>
+      <div>
+        {isLoading && <p>LOADING</p>}
+        {adverts && <AdvertsList adverts={adverts} />}
+        <button>Load more</button>
+      </div>
+    </Container>
   );
 };
 export default CatalogPage;

@@ -8,6 +8,8 @@ import {
 } from '../../redux/favoritesAdverts/favoritesAdvertsReducer';
 import { useState } from 'react';
 import Modal from '../Modal/Modal';
+import AdvertCard from '../AdvertCard/AdvertCard';
+import { defaultImg } from 'helpers/defaultImg';
 
 const AdvertsItem = ({ advert }) => {
   const dispatch = useDispatch();
@@ -62,7 +64,11 @@ const AdvertsItem = ({ advert }) => {
             stroke={isFavorite ? 'rgba(52, 112, 255, 1)' : 'white'}
           />
         </button>
-        <img src={img} alt={`${make} ${model}`} className={css.listItemImg} />
+        <img
+          src={img ? img : defaultImg}
+          alt={`${make} ${model}`}
+          className={css.listItemImg}
+        />
         <div className={css.infoBox}>
           <div className={css.subTitleBox}>
             <p className={css.subtitle}>
@@ -81,7 +87,11 @@ const AdvertsItem = ({ advert }) => {
           Learn more
         </button>
       </li>
-      {isOpen && <Modal isOpen={isOpen} closeFnc={closeModal}></Modal>}
+      {isOpen && (
+        <Modal isOpen={isOpen} closeFnc={closeModal}>
+          <AdvertCard advert={advert} />
+        </Modal>
+      )}
     </>
   );
 };

@@ -30,6 +30,7 @@
   visibility: visible;
   pointer-events: auto;
 }
+
 .modalCloseBtn {
   position: absolute;
   border: none;

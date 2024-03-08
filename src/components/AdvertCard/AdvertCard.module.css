@@ -1,0 +1,93 @@
+.cardImg {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 14px;
+}
+.cardInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 277px;
+  margin-bottom: 14px;
+}
+.cardSubtitleAccent {
+  color: #3470ff;
+}
+.cardInfoBox h2 {
+  font-weight: 500;
+  line-height: 1.33;
+  margin-bottom: 8px;
+}
+.cardDescrBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px 5px;
+
+  color: rgba(18, 20, 23, 0.1);
+}
+
+.cardDescrBox p {
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(18, 20, 23, 0.5);
+}
+.carDescr {
+  font-weight: 400;
+  line-height: 1.43;
+  color: #121417;
+  margin-bottom: 24px;
+}
+.accessBoxTitle {
+  margin-bottom: 8px;
+  line-height: 1.423;
+}
+.accessList {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(18, 20, 23, 0.5);
+  padding-bottom: 24px;
+}
+.accessList span {
+  margin-left: 6px;
+  margin-right: 6px;
+  color: rgba(18, 20, 23, 0.1);
+}
+.rentalBox {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.rentalBoxiteItem {
+  border-radius: 35px;
+  padding: 7px 14px;
+  background: #f9f9f9;
+}
+.rentalBoxAccent {
+  font-weight: 600;
+  color: #3470ff;
+}
+.rentalBtn {
+  display: block;
+  width: 68px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  background-color: #3470ff;
+  padding: 12px 50px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.42;
+  text-align: center;
+  transition: background-color var(--general-transition);
+}
+
+.rentalBtn:hover,
+.rentalBtn:focus {
+  background-color: #0b44cd;
+}

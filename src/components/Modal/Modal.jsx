@@ -15,11 +15,12 @@ const Modal = ({ children, isOpen, closeFnc }) => {
         closeOnClick();
       }
     };
-
     window.addEventListener('keydown', onPressEsc);
+    document.body.style.overflow = 'hidden';
 
     return () => {
       window.removeEventListener('keydown', onPressEsc);
+      document.body.style.overflow = 'auto';
     };
   }, [closeOnClick]);
 
@@ -35,7 +36,7 @@ const Modal = ({ children, isOpen, closeFnc }) => {
         <button className={css.modalCloseBtn} onClick={closeOnClick}>
           <CrossSvg width={24} height={24} />
         </button>
-        <h2>HAHAHAHAHAAAAAAAAAAAAAAAAAAAA</h2>
+        {children}
       </div>
       ;
     </div>
