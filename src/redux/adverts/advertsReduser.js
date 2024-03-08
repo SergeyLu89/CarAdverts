@@ -1,7 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { getAdverts } from './advertsAPI';
-// import { persistReducer } from 'redux-persist';
-// import storage from 'redux-persist/lib/storage';
 
 const advertsSlice = createSlice({
   name: 'adverts',
@@ -28,14 +26,4 @@ const advertsSlice = createSlice({
       });
   },
 });
-// const advertsConfig = {
-//   key: 'adverts',
-//   storage,
-//   whitelist: ['adverts'],
-// };
-
-// export const advertsReducer = persistReducer(
-//   advertsConfig,
-//   advertsSlice.reducer
-// );
 export const advertsReducer = advertsSlice.reducer;

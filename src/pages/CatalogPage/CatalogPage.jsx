@@ -1,6 +1,6 @@
 // import css from './CatalogPage.module.css';
 import AdvertsList from 'components/AdvertsList/AdvertsList';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAdverts } from '../../redux/adverts/advertsAPI';
 import {
@@ -8,24 +8,30 @@ import {
   // selectAdvertsIsLoadMore,
   selectAdvertsIsLoading,
 } from '../../redux/adverts/advertsSelectors';
-import Container from 'components/reuseComponents/Container';
+import Container from 'components/reuseComponents/Container/Container';
 
 const CatalogPage = () => {
   const dispath = useDispatch();
   const adverts = useSelector(selectAdverts);
   const isLoading = useSelector(selectAdvertsIsLoading);
   // const loadMore = useSelector(selectAdvertsIsLoadMore);
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    dispath(getAdverts());
-  }, [dispath]);
+    dispath(getAdverts(currentPage));
+  }, [dispath, currentPage]);
 
-  return (
+  const onLoadMoreBtn = () => {
+    setCurrentPage(prevPage => prevPage + 1);
+  };
+
+  return isLoading ? (
+    <p>Loading...</p>
+  ) : (
     <Container>
       <div>
-        {isLoading && <p>LOADING</p>}
         {adverts && <AdvertsList adverts={adverts} />}
-        <button>Load more</button>
+        <button onClick={onLoadMoreBtn}>Load more</button>
       </div>
     </Container>
   );
