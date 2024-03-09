@@ -3,3 +3,6 @@ export const defaultImg =
 
 export const heroImg =
   'https://www.popsci.com/uploads/2019/04/22/RACMJSXXIK7BFWBEPV5KGO6TNA.jpg?auto=webp&width=1440&height=865.6875';
+
+export const emptyImg =
+  'https://emojio.ru/images/apple-b/1f937-200d-2642-fe0f.png';
