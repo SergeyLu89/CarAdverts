@@ -7,9 +7,7 @@ const advertsSlice = createSlice({
     adverts: null,
     isLoading: false,
     error: null,
-    total: null,
-    isLoadMore: false,
-  },
+    },
   extraReducers: builder => {
     builder
       .addCase(getAdverts.pending, state => {
