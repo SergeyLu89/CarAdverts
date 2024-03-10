@@ -41,7 +41,6 @@ const AdvertsItem = ({ advert }) => {
   const carCountry = carAdress[carAdress.length - 1];
 
   const [isOpen, setIsOpen] = useState(false);
-  // const [currentId, setCurrentId] = useState(null);
 
   const openModal = () => {
     setIsOpen(true);
