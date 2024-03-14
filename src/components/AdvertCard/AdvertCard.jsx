@@ -1,6 +1,5 @@
 import { defaultImg } from 'helpers/defaultImg';
 import css from './AdvertCard.module.css';
-import { formatingMile } from 'helpers/formatingMile';
 const AdvertCard = ({ advert }) => {
   const {
     id,
@@ -77,7 +76,7 @@ const AdvertCard = ({ advert }) => {
           <p className={css.rentalBoxiteItem}>
             Mileage:{' '}
             <span className={css.rentalBoxAccent}>
-              {formatingMile(mileage)}
+              {mileage.toLocaleString('en-US')}
             </span>
           </p>
           <p className={css.rentalBoxiteItem}>
