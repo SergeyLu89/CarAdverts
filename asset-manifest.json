@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/cars-adverts/static/css/main.12e118e4.css",
-    "main.js": "/cars-adverts/static/js/main.a7664994.js",
+    "main.js": "/cars-adverts/static/js/main.5cec780d.js",
     "static/css/674.992f6a47.chunk.css": "/cars-adverts/static/css/674.992f6a47.chunk.css",
     "static/js/674.01297157.chunk.js": "/cars-adverts/static/js/674.01297157.chunk.js",
     "static/css/90.e41d2092.chunk.css": "/cars-adverts/static/css/90.e41d2092.chunk.css",
-    "static/js/90.3e48b1c7.chunk.js": "/cars-adverts/static/js/90.3e48b1c7.chunk.js",
+    "static/js/90.ef857c15.chunk.js": "/cars-adverts/static/js/90.ef857c15.chunk.js",
     "static/css/126.3a926d9c.chunk.css": "/cars-adverts/static/css/126.3a926d9c.chunk.css",
-    "static/js/126.bb9da7b3.chunk.js": "/cars-adverts/static/js/126.bb9da7b3.chunk.js",
+    "static/js/126.10390a6a.chunk.js": "/cars-adverts/static/js/126.10390a6a.chunk.js",
     "index.html": "/cars-adverts/index.html",
     "static/media/favorite.svg": "/cars-adverts/static/media/favorite.83ae9576cb419db869688ad5a92854a4.svg",
     "static/media/cross.svg": "/cars-adverts/static/media/cross.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
     "static/media/down.svg": "/cars-adverts/static/media/down.ff3e9595682e2ba0851c53a7c99a9365.svg",
     "main.12e118e4.css.map": "/cars-adverts/static/css/main.12e118e4.css.map",
-    "main.a7664994.js.map": "/cars-adverts/static/js/main.a7664994.js.map",
+    "main.5cec780d.js.map": "/cars-adverts/static/js/main.5cec780d.js.map",
     "674.992f6a47.chunk.css.map": "/cars-adverts/static/css/674.992f6a47.chunk.css.map",
     "674.01297157.chunk.js.map": "/cars-adverts/static/js/674.01297157.chunk.js.map",
     "90.e41d2092.chunk.css.map": "/cars-adverts/static/css/90.e41d2092.chunk.css.map",
-    "90.3e48b1c7.chunk.js.map": "/cars-adverts/static/js/90.3e48b1c7.chunk.js.map",
+    "90.ef857c15.chunk.js.map": "/cars-adverts/static/js/90.ef857c15.chunk.js.map",
     "126.3a926d9c.chunk.css.map": "/cars-adverts/static/css/126.3a926d9c.chunk.css.map",
-    "126.bb9da7b3.chunk.js.map": "/cars-adverts/static/js/126.bb9da7b3.chunk.js.map"
+    "126.10390a6a.chunk.js.map": "/cars-adverts/static/js/126.10390a6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12e118e4.css",
-    "static/js/main.a7664994.js"
+    "static/js/main.5cec780d.js"
   ]
 }
